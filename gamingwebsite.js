@@ -40,3 +40,18 @@ function showSlides(n) {
         dots[index].style.background = (index === slideIndex - 1) ? '#00c6ff' : '#c4c4c4';
     });
 }
+const rightArrow = document.querySelector('.right-arrow');
+const categoriesWrapper = document.querySelector('.categories-wrapper');
+
+rightArrow.addEventListener('click', () => {
+    categoriesWrapper.scrollBy({
+        top: 0,
+        left: 200, // Adjust scroll distance
+        behavior: 'smooth'
+    });
+});
+document.addEventListener('mousemove', function(e) {
+    const circle = document.querySelector('.trailing-circle');
+    circle.style.left = `${e.clientX}px`;
+    circle.style.top = `${e.clientY}px`;
+});
