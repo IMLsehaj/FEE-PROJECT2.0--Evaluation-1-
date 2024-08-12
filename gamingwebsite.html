@@ -17,7 +17,7 @@
                 <div></div>
             </div>
             <div class="logo">
-                <img src="logo.png" alt="">
+                <img src="logo.png" alt="NVIDIA Logo">
             </div>
             <ul class="nav-links">
                 <li><a href="#">Shop</a></li>
@@ -54,7 +54,7 @@
                             <p>Coming 2025</p>
                             <button>Watch Trailer</button>
                         </div>
-                        <img src="nvida 1.jpg"  hieght="500px" alt="Slide 1">
+                        <img src="nvida 1.jpg" height="500px" alt="Slide 1">
                     </div>
                     <div class="slide">
                         <div class="overlay">
@@ -62,7 +62,7 @@
                             <p>Coming Soon</p>
                             <button>Learn More</button>
                         </div>
-                        <img src="rtx4090.jpg"   alt="Slide 2">
+                        <img src="rtx4090.jpg" alt="Slide 2">
                     </div>
                     <div class="slide">
                         <div class="overlay">
@@ -82,8 +82,16 @@
                     </div>
                 </div>
                 <div class="navigation-manual">
-                    <button class="manual-btn prev-btn">&#10094;</button>
-                    <button class="manual-btn next-btn">&#10095;</button>
+                    <button class="manual-btn prev-btn" onclick="moveSlides(-1)">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.41 16.58L10.83 12l4.58-4.58L14.17 6l-6 6 6 6 1.41-1.42z"/>
+                        </svg>
+                    </button>
+                    <button class="manual-btn next-btn" onclick="moveSlides(1)">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.59 7.42L13.17 12l-4.58 4.58L9.83 18l6-6-6-6-1.41 1.42z"/>
+                        </svg>
+                    </button>
                 </div>
                 <div class="navigation-auto">
                     <div class="auto-btn1"></div>
@@ -122,6 +130,45 @@
             <button class="features-button">Join Today</button>
         </section>
     </main>
+    
+    
+    
+    <div class="main-container">
+        <div class="description-box">
+            <h2>Online Games at [Your Website Name]</h2>
+            <p>[Your website name] features the latest and best free online games. You can enjoy playing fun games without interruptions from downloads, intrusive ads, or pop-ups. Just load up your favorite games instantly in your web browser and enjoy the experience.</p>
+            <a href="#" class="learn-more">Learn more</a>
+        </div>
+        <div class="carousel-container">
+            <div class="categories-wrapper">
+                <div class="categories">
+                    <div class="category">2 Player</div>
+                    <div class="category">Adventure</div>
+                    <div class="category">Beauty</div>
+                    <div class="category">Car</div>
+                    <div class="category">Casual</div>
+                    <div class="category">Controller</div>
+                    <div class="category">Action</div>
+                    <div class="category">Basketball</div>
+                    <div class="category">Bike</div>
+                    <div class="category">Card</div>
+                    <div class="category">Clicker</div>
+                    <div class="category">Dress Up</div>
+                    <div class="category">Fighting</div>
+                    <div class="category">Puzzle</div>
+                    <div class="category">Racing</div>
+                    <div class="category">Role Playing</div>
+                    <div class="category">Shooting</div>
+                    <div class="category">Simulation</div>
+                    <div class="category">Sports</div>
+                    <div class="category">Strategy</div>
+                </div>
+            </div>
+            <button class="arrow right-arrow">&gt;</button>
+        </div>
+    </div>
+    
+   
 
     <script src="gamingwebsite.js"></script>
 </body>
