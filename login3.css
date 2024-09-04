@@ -73,11 +73,6 @@ body{
     
 }
 
-h1 {
-    background: -webkit-linear-gradient(45deg, rgb(255, 8, 255), orange );
-    -webkit-background-0clip:text; 
-    -webkit-text-fill-color: transparent;
-  }
     
 .login .inputbx{
     position: relative;
