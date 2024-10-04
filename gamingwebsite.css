@@ -799,6 +799,7 @@ body::after {
 	position: absolute;
 	top: 0;
 	left: 0;
+    -webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
 	background: radial-gradient(ellipse, #00000000, #000000cc);
 	z-index: -1;
