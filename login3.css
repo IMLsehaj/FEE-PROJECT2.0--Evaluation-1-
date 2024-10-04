@@ -12,7 +12,8 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color:#000000
+    background-image: url("https://th.bing.com/th/id/R.cd0b44267b58d8aab290617563a732c6?rik=QIkGDevMLRZupg&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f08%2f4k-gaming-wallpaper-11.jpg&ehk=BmZGWmLnTK%2fid%2fbeP1K1WP%2fZN40Po3Kyd%2bOqUH1e9AA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
 }
 
 .square{

@@ -28,8 +28,8 @@ header {
 }
 
 .logo img {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     filter: drop-shadow(0 0 5px #00aaff);
     transition: filter 0.3s ease; /* added transition */
 }
@@ -610,7 +610,7 @@ header {
     transform: translateY(-3px);
 }
 
-.arrow {
+/* .arrow {
     position: absolute;
     right: 0;
     background-color: #27293D;
@@ -625,7 +625,7 @@ header {
 
 .arrow:hover {
     background-color: #3A3E5F;
-}
+} */
 
 /* special cards*/
 :root {
